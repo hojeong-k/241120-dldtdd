@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김호정-dl,dt,dd,table- 설명,정의목록태그</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        /* 초기화 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8e6e8;
+            font-family: 'Nanum Gothic';
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            font-size: 35px;
+            margin-top: 60px;
+        }
+
+        dl {
+            box-sizing: border-box;
+            /* margin: 0 auto; -- 박스중앙정렬 */
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 70%;
+            background-color: #fff;
+            /* 그림자 x, y, 흐림효과, 색(검정, 10% 투명도) */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            /* 안쪽여백 */
+            padding: 60px 50px 60px 70px;
+            /* 패딩 상 오 하 왼 */
+            text-align: justify;
+        }
+
+        dt {
+            /* margin-left: 40px; */
+            color: #4a90e2;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        dd {
+            color: #666;
+            line-height: 1.6;
+            letter-spacing: -1px;
+        }
+
+        hr {
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- dl>dt+dd -->
+    <!-- * dl :description list (설명리스트)
+    * dt : definition term(정의항목)
+    * dd : description detail 세부설명 -->
+    <!-- 구분선 : hr(horizontal rule) -->
+    <!-- br : break 중단, 간격 -->
+    <h1>꽃에 대한 정의</h1>
+    <dl>
+        <dt>튤립</dt>
+        <dd>백합과에 속하는 구근식물로
+            전 세계적으로 사랑받는 꽃입니다. 아름다운 꽃잎과 다양한 색상으로 유명하며
+            봄을 대표하는 꽃 중 하나입니다.
+            백합과에 속하는 구근식물로
+            전 세계적으로 사랑받는 꽃입니다. 아름다운 꽃잎과 다양한 색상으로 유명하며
+            봄을 대표하는 꽃 중 하나입니다.
+            전 세계적으로 사랑받는 꽃입니다. 아름다운 꽃잎과 다양한 색상으로 유명하며
+            봄을 대표하는 꽃 중 하나입니다.
+            전 세계적으로 사랑받는 꽃입니다. 아름다운 꽃잎과 다양한 색상으로 유명하며
+            봄을 대표하는 꽃 중 하나입니다.
+            봄을 대표하는 꽃 중 하나입니다.
+            전 세계적으로 사랑받는 꽃입니다. 아름다운 꽃잎과 다양한 색상으로 유명하며
+            봄을 대표하는 꽃 중 하나입니다.
+        </dd>
+    </dl>
+    <hr>
+    <dl>
+        <dt>마가렛</dt>
+        <dd>마가렛은 국화과에 속하는 다년생 식물로,
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            마가렛은 국화과에 속하는 다년생 식물로,
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+        </dd>
+    </dl>
+    <hr>
+    <dl>
+        <dt>장미</dt>
+        <dd>국화과에 속하는 다년생 식물로,
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            국화과에 속하는 다년생 식물로,
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            국화과에 속하는 다년생 식물로,
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+            하얀 꽃잎과 노란 중심부가 특징인 사랑스러운 꽃입니다.
+            그 단아한 모습 덕분에 정원용 꽃뿐만 아니라 선물용 꽃으로도 인기가 많습니다.
+        </dd>
+    </dl>
+</body>
+
+</html>
